@@ -1,0 +1,127 @@
+.work{
+     background: #1B262F;
+     &__wrapper{
+          padding-bottom: 100px;
+          display: flex;
+          justify-content: start;
+          align-items: center;
+          gap: 131px;
+     }
+     &__box{
+          display: flex;
+          flex-direction: column;
+          width: 445px;
+          &__title{
+               padding-bottom: 24px;
+               padding-top: 100px;
+               font-family: 'DM Serif Display';
+               font-style: normal;
+               font-weight: 400;
+               font-size: 48px;
+               line-height: 56px;    
+               color: #FBFCFE;
+          }
+          &__subtitle{
+               font-family: 'Public Sans';
+               font-style: normal;
+               font-weight: 400;
+               font-size: 15px;
+               color: #FBFCFE;
+               mix-blend-mode: normal;
+               line-height: 28px;
+               opacity: 0.7;
+          }
+     }
+     &__btn{
+          margin-top: 32px;
+          width: 129px;
+          cursor: pointer;
+          color:#FBFCFE;
+          border: 1px solid #FBFCFE;
+          border-radius:24px;
+          text-align: center;
+          padding: 16px 32px 14px;
+          background:#1B262F;
+          font-size:15px;
+          
+     }
+     &__btn:active{
+          background:#FBFCFE;
+          color:#1B262F;
+     }
+     &__card{
+          padding-top: 110px;
+          width: 536px;
+          display: grid;
+          grid-template-columns: repeat(3, auto);
+          column-gap: 46px;
+          row-gap: 45px;
+     }
+
+
+}
+@media screen and (max-width:768px) {
+     .work{
+          background: #1B262F;
+          &__wrapper{
+               padding-bottom: 100px;
+               display: flex;
+               justify-content: center;
+               flex-direction: column-reverse;
+               align-items: center;
+               gap: 64px;
+          }
+          &__box{
+               display: flex;
+               flex-direction: column;
+               width: 445px;
+               &__title{
+                    padding-bottom: 24px;
+                    padding-top: 100px;
+                    font-family: 'DM Serif Display';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 48px;
+                    line-height: 56px;    
+                    color: #FBFCFE;
+               }
+               &__subtitle{
+                    font-family: 'Public Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    color: #FBFCFE;
+                    mix-blend-mode: normal;
+                    line-height: 28px;
+                    opacity: 0.7;
+               }
+          }
+          &__btn{
+               margin-top: 32px;
+               width: 129px;
+               cursor: pointer;
+               color:#FBFCFE;
+               border: 1px solid #FBFCFE;
+               border-radius:24px;
+               text-align: center;
+               padding: 16px 32px 14px;
+               background:#1B262F;
+               font-size:15px;
+               
+          }
+          &__btn:active{
+               background:#FBFCFE;
+               color:#1B262F;
+          }
+          &__card{
+               padding-top: 110px;
+               width: 536px;
+               display: grid;
+               grid-template-columns: repeat(3, auto);
+               column-gap: 46px;
+               row-gap: 45px;
+          }
+     
+     
+     }
+}

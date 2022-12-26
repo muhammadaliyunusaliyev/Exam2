@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  background: #BA4270;
+  border-radius: 24px;
+  border-color: transparent;
+  display: block;
+  width: 172px;
+  height: 48px;
+}
+
+.btn:active {
+  background: #da6d97;
+}
+
+.input {
+  width: 300px;
+  height: 48px;
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #36536B;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  border-radius: 24px;
+  padding: 16px 106px 14px 27px;
+}
+
+.email {
+  cursor: pointer;
+  display: flex;
+}
+.email__buton {
+  margin-left: -45px;
+  z-index: 10;
+}/*# sourceMappingURL=global.css.map */
